@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;  /* Set a clean font */
+  margin: 0; 
+  padding: 0;
+  background: rgb(203, 170, 203);
+  color: #333;
+}
+header, footer {
+  background: rgb(203, 170, 203);
+  color: rgb(255, 244, 177);
+  text-align: center;
+  padding: 1rem;
+  border: 0px ;
+}
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+h2 {
+  color: #47062e;
+}
+.resize-img {
+    width: 200px;
+    height: auto; /* keeps aspect ratio */
+    float:right;
+    display: flex;
+    flex-wrap: wrap;
+  }
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+form button {
+  padding: 0.7rem 1.2rem;
+  background: rgb(216, 167, 177);
+  color:black black;
+  border: none;
+  cursor: pointer;
+}
